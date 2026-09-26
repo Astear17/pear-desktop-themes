@@ -1,0 +1,12 @@
+{
+  "name": "Basic",
+  "description": "Recolours YouTube Music from a four-colour palette you can edit.",
+  "author": "pear-desktop",
+  "palette": {
+    "accent": "#ff0000",
+    "background": "#030303",
+    "surface": "#1f1f1f",
+    "text": "#ffffff"
+  },
+  "css": []
+}

@@ -1,0 +1,75 @@
+name: Add a theme
+description: Submit a theme you made, so it can be added to this repository
+title: "[Theme] "
+labels: "theme"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this if you don't want to open a Pull Request. Themes are folders, so a
+        zip of yours is all that's needed - drag it into the attachment field below.
+        See the [theme guide](https://github.com/michei69/pear-desktop/blob/master/src/themes/README.md)
+        for the format.
+
+  - type: input
+    id: theme-name
+    attributes:
+      label: Theme name
+      placeholder: Solarized
+    validations:
+      required: true
+
+  - type: input
+    id: theme-id
+    attributes:
+      label: Folder name (theme id)
+      description: The folder your `theme.json` lives in. Lowercase, dashes instead of spaces, use only ascii characters.
+      placeholder: solarized
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Name or handle to credit. Leave blank for your GitHub username.
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two lines on what it looks like and what it changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Theme files
+      description: |
+        Drag and drop the zipped theme folder here (or paste a download link).
+      placeholder: my-theme.zip
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag the image into this field, or paste a link.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I tested this theme on the [fork](https://github.com/michei69/pear-desktop) and it loads just like in the screenshot.
+          required: true
+        - label: This is my own work, or I have permission to share it.
+          required: true
+        - label: This theme utilizes one or more `.js` files.
+          required: false
