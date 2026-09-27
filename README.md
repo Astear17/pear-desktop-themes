@@ -14,7 +14,7 @@ Download this repository and extract the folder of your desired theme into the `
 
 For information on how to create a theme, [click here](https://github.com/michei69/pear-desktop/blob/master/src/themes/README.md).
 
-You can add your own custom themes to this repository by [forking this repository](https://github.com/Astear17/pear-desktop-themes/fork), adding your theme folder, then [create a Pull Request](https://github.com/Astear17/pear-desktop-themes/pulls) with a screenshot showcasing it.
+You can add your own custom themes to this repository by [forking this repository](https://github.com/michei69/pear-desktop-themes/fork), adding your theme folder, then [create a Pull Request](https://github.com/michei69/pear-desktop-themes/pulls) with a screenshot showcasing it.
 
 If you are not experienced with Git/GitHub, you can also create an issue on this repository with your zipped theme folder attached.
 
