@@ -1,0 +1,7 @@
+{
+  "name": "Inject fonts into Pear Desktop",
+  "css": [
+    "style.css"
+  ],
+  "palette": {}
+}
