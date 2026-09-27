@@ -8,11 +8,11 @@ A theme for [Pear Desktop by michei69](https://github.com/michei69/pear-desktop)
 
 _Before applying_
 
-<img src="https://raw.githubusercontent.com/michei69/pear-desktop-themes/refs/heads/main/inter-to-pear/assets/b4.png" alt="Before">
+![Before](../.images/InterToPear_Before.png)
 
 _After applying_
 
-<img src="https://raw.githubusercontent.com/michei69/pear-desktop-themes/refs/heads/main/inter-to-pear/assets/a.png" alt="After">
+![After](../.images/InterToPear_After.png)
 
 </div>
 
